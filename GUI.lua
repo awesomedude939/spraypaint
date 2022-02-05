@@ -1,7 +1,7 @@
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua",true))()
 local paintgui = game:GetService("Players").LocalPlayer.PlayerGui.PaintGui
 
-local window = lib.CreateLib("(SUBWAY) Spray Paint!", "LightTheme")
+local window = lib.CreateLib("(SUBWAY) Spray Paint! [PATCHED]", "LightTheme")
 local tab1 = window:NewTab("Paint Mod")
 local sec1 = tab1:NewSection("Change Paint")
 sec1:NewSlider("Layer", "Change layer", 20, 0,  function(slider)
